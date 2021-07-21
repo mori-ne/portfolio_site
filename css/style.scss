@@ -3,7 +3,10 @@ $text_color: #6A6A6A;
 body {
     font-family: 'Lato', sans-serif;
     color: $text_color;
-    background: url("../img/bg.png") top center no-repeat;
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
 }
 
 .wrapper {
@@ -163,6 +166,7 @@ body {
                     p {
                         font-size: 14px;
                         font-weight: normal;
+                        margin: 0;
                     }
                 }
             }
