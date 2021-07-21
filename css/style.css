@@ -1,0 +1,154 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #6A6A6A;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header .wrapper {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .wrapper .header-logo h1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.header .wrapper .header-nav .humberger {
+  width: 100px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .wrapper .header-nav .humberger span {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #6A6A6A;
+}
+
+.header .wrapper .header-nav .humberger span:before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #6A6A6A;
+  position: absolute;
+  top: -8px;
+}
+
+.header .wrapper .header-nav .humberger span:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #6A6A6A;
+  position: absolute;
+  bottom: -8px;
+}
+
+.main {
+  background: #eee;
+}
+
+.main .wrapper {
+  position: relative;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .wrapper .main-name h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .wrapper .main-name h2 .name {
+  font-size: 30px;
+  margin: 0 36px 0 0;
+}
+
+.main .wrapper .main-name h2 .circle {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 3em;
+  background: #6A6A6A;
+  margin: 0 36px 0 0;
+}
+
+.main .wrapper .main-name h2 .sub {
+  font-size: 14px;
+}
+
+.main .wrapper .copywrite {
+  position: absolute;
+  right: 50px;
+  -webkit-transform-origin: center right;
+          transform-origin: center right;
+  -webkit-transform: rotate(90deg) translate(50%);
+          transform: rotate(90deg) translate(50%);
+  font-size: 12px;
+}
+
+.pageup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background: #6A6A6A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

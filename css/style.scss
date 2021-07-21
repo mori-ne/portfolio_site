@@ -1,0 +1,129 @@
+$text_color: #6A6A6A;
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: $text_color;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+
+    .wrapper {
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .header-logo {
+            h1 {
+                font-size: 20px;
+                font-weight: normal;
+            }
+        }
+
+        .header-nav {
+            .humberger {
+                width: 100px;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                span {
+                    position: relative;
+                    display: block;
+                    width: 30px;
+                    height: 3px;
+                    background: $text_color;
+
+                    &:before {
+                        content: "";
+                        display: block;
+                        width: 30px;
+                        height: 3px;
+                        background: $text_color;
+                        position: absolute;
+                        top: -8px;
+                    }
+
+                    &:after {
+                        content: "";
+                        display: block;
+                        width: 30px;
+                        height: 3px;
+                        background: $text_color;
+                        position: absolute;
+                        bottom: -8px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main {
+    background: #eee;
+
+    .wrapper {
+        position: relative;
+        height: 600px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .main-name {
+
+            h2 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                .name {
+                    font-size: 30px;
+                    margin: 0 36px 0 0;
+                }
+                    .circle {
+                        display: block;
+                        width: 16px;
+                        height: 16px;
+                        border-radius: 3em;
+                        background: $text_color;
+                        margin: 0 36px 0 0;
+                    }
+
+                    .sub {
+                        font-size: 14px;
+                    }
+            }
+        }
+
+        .copywrite {
+            position: absolute;
+            right: 50px;
+            transform-origin: center right;
+            transform: rotate(90deg) translate(50%);
+            font-size: 12px;
+        }
+    }
+
+}
+
+.pageup {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    width: 50px;
+    height: 50px;
+    background: $text_color;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
