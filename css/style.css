@@ -1,11 +1,12 @@
 body {
   font-family: 'Lato', sans-serif;
   color: #6A6A6A;
+  background: url("../img/bg.png") top center no-repeat;
 }
 
 .wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
+  padding: 0 100px;
 }
 
 .header .wrapper {
@@ -74,11 +75,7 @@ body {
   bottom: -8px;
 }
 
-.main {
-  background: #eee;
-}
-
-.main .wrapper {
+.contents .wrapper {
   position: relative;
   height: 600px;
   display: -webkit-box;
@@ -91,9 +88,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 0 60px 0;
 }
 
-.main .wrapper .main-name h2 {
+.contents .wrapper .contents-name h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,12 +104,12 @@ body {
           align-items: center;
 }
 
-.main .wrapper .main-name h2 .name {
+.contents .wrapper .contents-name h2 .name {
   font-size: 30px;
   margin: 0 36px 0 0;
 }
 
-.main .wrapper .main-name h2 .circle {
+.contents .wrapper .contents-name h2 .circle {
   display: block;
   width: 16px;
   height: 16px;
@@ -120,11 +118,11 @@ body {
   margin: 0 36px 0 0;
 }
 
-.main .wrapper .main-name h2 .sub {
+.contents .wrapper .contents-name h2 .sub {
   font-size: 14px;
 }
 
-.main .wrapper .copywrite {
+.contents .wrapper .copywrite {
   position: absolute;
   right: 50px;
   -webkit-transform-origin: center right;
@@ -132,6 +130,67 @@ body {
   -webkit-transform: rotate(90deg) translate(50%);
           transform: rotate(90deg) translate(50%);
   font-size: 12px;
+}
+
+.about .wrapper {
+  margin: 0 0 60px 0;
+}
+
+.about .wrapper h2 {
+  font-weight: 900;
+  font-size: 100px;
+  margin: 0 0 5px 0;
+}
+
+.about .wrapper p {
+  line-height: 1.6em;
+  font-size: 14px;
+  margin: 0 0 120px 0;
+}
+
+.about .wrapper .apps {
+  border-left: 2px solid #6A6A6A;
+  padding: 0 0 0 30px;
+}
+
+.about .wrapper .apps .app-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.about .wrapper .apps .app-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 0 30px 0;
+}
+
+.about .wrapper .apps .app-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 180px;
+}
+
+.about .wrapper .apps .app-list li .appicon {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px 0 0;
+}
+
+.about .wrapper .apps .app-list li p {
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .pageup {
