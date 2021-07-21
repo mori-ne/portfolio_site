@@ -9,15 +9,19 @@ body {
     background-size: cover;
 }
 
+
+
 .wrapper {
-    // max-width: 1200px;
     max-width: 100%;
     padding: 0 100px;
+
+    // max-width: 1200px;
     // margin: 0 auto;
 }
 
-.header {
 
+
+.header {
     .wrapper {
         height: 100px;
         display: flex;
@@ -73,8 +77,9 @@ body {
     }
 }
 
-.contents {
 
+
+.contents {
     .wrapper {
         position: relative;
         height: 600px;
@@ -93,6 +98,7 @@ body {
                 .name {
                     font-size: 30px;
                     margin: 0 36px 0 0;
+                    letter-spacing: 8px;
                 }
 
                 .circle {
@@ -120,9 +126,11 @@ body {
     }
 }
 
+
+
 .about {
     .wrapper {
-        margin: 0 0 60px 0;
+        margin: 0 0 120px 0;
 
         h2 {
             font-weight: 900;
@@ -131,7 +139,7 @@ body {
         }
 
         p {
-            line-height: 1.6em;
+            line-height: 1.8em;
             font-size: 14px;
             margin: 0 0 120px 0;
         }
@@ -143,14 +151,14 @@ body {
             .app-title {
                 font-size: 14px;
                 font-weight: bold;
-                margin: 0 0 5px 0;
+                margin: 0 0 10px 0;
             }
 
             .app-list {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
-                margin: 0 0 30px 0;
+                margin: 0 0 40px 0;
 
                 li {
                     display: flex;
@@ -170,6 +178,82 @@ body {
                     }
                 }
             }
+        }
+    }
+}
+
+
+
+.works {
+    .wrapper {
+        margin: 0 0 120px 0;
+
+        h2 {
+            font-weight: 900;
+            font-size: 100px;
+            margin: 0 0 5px 0;
+        }
+
+        .works-main {
+            max-width: 100%;
+            background: #eee;
+            padding: 60px;
+
+            .works-main-inner {
+                // max-width: 1200px;
+                margin: 0 auto;
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+
+                .works-img {
+                    width: 50%;
+                    height: auto;
+                    margin: 0 30px 0 0;
+                    background: #fff;
+                }
+
+                .works-content {
+                    width: 50%;
+
+                    h3 {
+                        font-weight: bold;
+                        font-size: 26px;
+                        margin: 0 0 30px 0;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        line-height: 1.6em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.resume {
+    .wrapper {
+        margin: 0 0 120px 0;
+        h2 {
+            font-weight: 900;
+            font-size: 100px;
+            margin: 0 0 5px 0;
+        }
+    }
+}
+
+
+
+.contact {
+    .wrapper {
+        margin: 0 0 120px 0;
+        h2 {
+            font-weight: 900;
+            font-size: 100px;
+            margin: 0 0 5px 0;
         }
     }
 }

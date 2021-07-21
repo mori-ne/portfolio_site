@@ -110,6 +110,7 @@ body {
 .contents .wrapper .contents-name h2 .name {
   font-size: 30px;
   margin: 0 36px 0 0;
+  letter-spacing: 8px;
 }
 
 .contents .wrapper .contents-name h2 .circle {
@@ -136,7 +137,7 @@ body {
 }
 
 .about .wrapper {
-  margin: 0 0 60px 0;
+  margin: 0 0 120px 0;
 }
 
 .about .wrapper h2 {
@@ -146,7 +147,7 @@ body {
 }
 
 .about .wrapper p {
-  line-height: 1.6em;
+  line-height: 1.8em;
   font-size: 14px;
   margin: 0 0 120px 0;
 }
@@ -159,7 +160,7 @@ body {
 .about .wrapper .apps .app-title {
   font-size: 14px;
   font-weight: bold;
-  margin: 0 0 5px 0;
+  margin: 0 0 10px 0;
 }
 
 .about .wrapper .apps .app-list {
@@ -172,7 +173,7 @@ body {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0 0 30px 0;
+  margin: 0 0 40px 0;
 }
 
 .about .wrapper .apps .app-list li {
@@ -195,6 +196,77 @@ body {
   font-size: 14px;
   font-weight: normal;
   margin: 0;
+}
+
+.works .wrapper {
+  margin: 0 0 120px 0;
+}
+
+.works .wrapper h2 {
+  font-weight: 900;
+  font-size: 100px;
+  margin: 0 0 5px 0;
+}
+
+.works .wrapper .works-main {
+  max-width: 100%;
+  background: #eee;
+  padding: 60px;
+}
+
+.works .wrapper .works-main .works-main-inner {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.works .wrapper .works-main .works-main-inner .works-img {
+  width: 50%;
+  height: auto;
+  margin: 0 30px 0 0;
+  background: #fff;
+}
+
+.works .wrapper .works-main .works-main-inner .works-content {
+  width: 50%;
+}
+
+.works .wrapper .works-main .works-main-inner .works-content h3 {
+  font-weight: bold;
+  font-size: 26px;
+  margin: 0 0 30px 0;
+}
+
+.works .wrapper .works-main .works-main-inner .works-content p {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.resume .wrapper {
+  margin: 0 0 120px 0;
+}
+
+.resume .wrapper h2 {
+  font-weight: 900;
+  font-size: 100px;
+  margin: 0 0 5px 0;
+}
+
+.contact .wrapper {
+  margin: 0 0 120px 0;
+}
+
+.contact .wrapper h2 {
+  font-weight: 900;
+  font-size: 100px;
+  margin: 0 0 5px 0;
 }
 
 .pageup {
